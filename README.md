@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# React TypeScript MobX App Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/react-v18.2.0-blue.svg) ![TypeScript](https://img.shields.io/badge/typescript-v4.9.5-blue.svg) ![MobX](https://img.shields.io/badge/mobx-v6.11.0-blue.svg) ![Material-UI](https://img.shields.io/badge/material--ui-v5.14.17-blue.svg)
 
-## Available Scripts
+This is a template for building React applications with TypeScript and MobX for state management. It utilizes Material-UI (@mui) components for a clean and responsive user interface.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Before you begin, ensure you have the following installed on your machine:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) (v16.16.0 or higher)
+- [npm](https://www.npmjs.com/) (v8.15.0 or higher)
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository to your local machine:
 
-### `npm run build`
+    ```bash
+    git clone https://github.com/AmmarBandukwala/react-mobx-typescript-template.git
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    cd react-mobx-typescript-template
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install dependencies using npm:
 
-### `npm run eject`
+    ```bash
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Running the App
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the development server on `localhost:3000`:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the app.
 
-## Learn More
+### Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `src/`: Contains the source code of the application.
+  - `components/`: Reusable React components.
+  - `config/`: Route, context, and theme configuration.
+  - `stores/`: MobX state management stores.
+  - `features/`: Main views of the application and there dependecies.
+  - `App.tsx`: Root component.
+- `public/`: Static assets and HTML template.
+- `tsconfig.json`: TypeScript configuration file.
+- `package.json`: Project dependencies and scripts.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Features
+
+- **React**: A declarative, efficient, and flexible JavaScript library for building user interfaces.
+- **TypeScript**: Adds static typing to JavaScript to improve development experience and code quality.
+- **MobX**: Simple, scalable state management.
+- **Material-UI (@mui)**: A popular React UI framework for building responsive and consistent web applications.
+
+### Contributing
+
+Feel free to contribute to this project. Fork the repository, make your changes, and submit a pull request. Any contributions are welcome!
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
